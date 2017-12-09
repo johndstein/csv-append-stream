@@ -1,0 +1,15 @@
+{
+  "name": "csv-append-stream",
+  "version": "0.0.1",
+  "description": "Append a bunch of CSV streams into a single stream making sure the header is only at the top.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Stein",
+  "license": "Unlicense",
+  "dependencies": {
+    "byline": "5.0.0",
+    "stream-stream": "1.2.6"
+  }
+}
